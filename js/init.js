@@ -7,4 +7,7 @@ $(document).ready(function(){
     ];
 
     // Materialize.scrollFire(options);
+    // $("#contact-me").click(function(){
+    // 	$('body').scrollTo('.page-footer',{duration:'slow', offsetTop : '50'});
+    // };
 });

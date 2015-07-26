@@ -11,8 +11,16 @@ p {
   line-height: 2rem;
 }
 
+li {
+  line-height: 2rem;
+}
+
 .button-collapse {
   color: rgba(255,255,255,.8);
+}
+
+.desktopview {
+  display:none;
 }
 
 .parallax-container {
@@ -29,15 +37,37 @@ p {
 }
 
 .pic {
-  height:300px;
-  width:30%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
   margin-bottom: 30px;
   border-radius: 10%;
-  background: url(../profpic.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+.nav-links li{
+  height:64px;
+  line-height: 64px;
+  vertical-align: middle;
+}
+
+#social-media img {
+  height:2rem;
+  width:2rem;
+  margin-right: 0.5rem;
+  opacity:0.8;
+}
+
+.pichold {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-footer {
+  color: rgba(255,255,255,.8);
+}
+
+#about-list {
+  margin-bottom: 8rem;
 }
 
 @media only screen and (max-width : 992px) {
@@ -53,6 +83,15 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+}
+
+@media only screen and (min-width : 600px) {
+  .mobileview {
+    display:none;
+  }
+  .desktopview {
+    display: block;
   }
 }
 
